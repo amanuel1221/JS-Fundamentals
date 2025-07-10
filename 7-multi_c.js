@@ -1,10 +1,7 @@
 const num = process.argv[2];
-const x = Number(num);
-if (!isNaN(x)){
-    for(i = 0; i <= x; i++){console.log("C is fun");}
-
-}
-else{
-    
-    console.log("Missing number of occurrences");
+const x = parseInt(num);
+if (isNaN(x)) {
+  console.log("Missing number of occurrences");
+} else {n
+  for (let i = 0; i < x; i++) console.log("C is fun");
 }
