@@ -1,9 +1,10 @@
 const num = process.argv[2];
 const x = Number(num);
-if (isNaN(x)){
-    console.log("Missing number of occurrences");
+if (!isNaN(x)){
+    for(i = 0; i <= x; i++){console.log("C is fun");}
 
 }
 else{
-    for(i = 0; i <= x; i++){console.log("C is fun");}
+    
+    console.log("Missing number of occurrences");
 }
